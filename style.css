@@ -1,0 +1,204 @@
+/* home page */
+ .home-button {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+.promotion-btn {
+    display: flex;
+    background-color: orange;
+    color: white;
+    justify-content: space-around;
+    flex: 1;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    border: 2px solde black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.promotion-btn:hover {
+    background-color: green;
+}
+.order-btn {
+    display: flex;
+    background-color: orange;
+    color: white;
+    justify-content: space-around;
+    flex: 1;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    border: 2px solde black;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.order-btn:hover {
+    background-color: green;
+}
+
+/* for About us page */
+
+nav {
+    background-color: orange;
+    width: 100%;
+    padding-left:30px;
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.main-pic {
+    width: 100%;
+}
+.aboutus-title {
+    background: grey;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+}
+.header {
+    font-size: 30px;
+}
+.aboutus-contents {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.aboutus-area {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    max-width: 1100px;
+    padding-bottom: 100px;
+}
+
+.background {
+    background-image: url("https://bitna-restaurant.netlify.com/aboutBK-bg.png");
+    background-repeat: no-repeat;
+    height: 700px;
+}
+footer {
+    display: flex;
+    background-color: #522e1deb;
+    color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    justify-content: space-evenly;
+    position: relative;
+    text-decoration: none;
+  }
+/* for menu.html */
+.row {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.burger-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: block;
+}
+.burger-price {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+}
+.burger-button {
+    background-color: orange;
+    border: 1px sold black;
+    width: 316px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.burger-button:hover {
+    background-color:green;
+}
+.googlemap-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #f3d7c0;
+    align-items: center;
+}
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    padding: 40px;
+    margin: 40px;
+    border: 5px solid black;
+    border-radius: 20px;
+    color:black;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.slogan {
+    justify-content: center;
+    font-weight: bold;
+    height: 50px;
+    font-size: 20px;
+}
+.selected-burger {
+    border: 3px solid green;
+    filter: hue-rotate(90deg);
+}
+/* for promotion.html */
+
+.promotion-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+.promotion-detail {
+    text-align: left;
+    justify-content: space-around;
+    margin: 100px;
+}
+.promotion-pic {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+
+}
+.promotion-button {
+    display: flex; 
+    align-items: center;
+    justify-content: center;    
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    margin: auto;
+    width: 50%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.promotion-button:hover {
+    background: green;
+}
