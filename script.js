@@ -9,20 +9,17 @@ find all element with selector burger class
 loop through each element and remove selector burger class from all the img
 */
 /*
-const allSelectorBurgers = document.querySelectorAll('.selected-burger');
+const allSelectorBurgers = document.querySelectorAll('.selectburger');
 allSelectorBurgers.forEach(function (item) {
-    item.classList.remove('.selected-burger')
+    item.classList.remove('.selectburger')
 });
 
 const divContainer = btnElement.parentNode;
 const imageElement = divContainer.querySelector('img');
-if (imageElement.classList.contains('.selected-burger')) {
-    imageElement.classList.remove(".selected-burger")
+if (imageElement.classList.contains('.selectburger')) {
+    imageElement.classList.remove(".selectburger")
 } else {
-    imageElement.classList.add(".selected-burger")
-}
-};
-*/
+    imageElement.classList.add(".selectburger")};
 
 //1. when a user clicks addToCart, please make the burger title red. And make ALL the other burger titles gray. 
 
@@ -42,3 +39,4 @@ const allSelectorBurgerTitles = document.querySelectorAll('.selected-burger-titl
     } else {
         titleElement.classList.add(".selected-burger-title")
 */
+

@@ -108,6 +108,15 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    border-radius: 20px;
+
+}
+.item img:hover {
+    transform: scale(1.2);
+}
+
+.order-btn:hover {
+    background-color: green;
 }
 .burger-title {
     margin-top: 10px;

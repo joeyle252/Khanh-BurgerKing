@@ -16,11 +16,10 @@
 
     <nav>
         <img src="https://burgerking.vn/skin/frontend/bk2/default/images/logo.png" />
-        <a class="menu-item" href="index.html">HOME</a>
-        <a class="menu-item" href="menu.html">MENU</a>
-        <a class="menu-item" href="promotion.html">PROMOTION</a>
+        <a class="menu-item" href="index.html" target="_self">HOME</a>
+        <a class="menu-item" href="menu.html" target="_self">MENU</a>
+        <a class="menu-item" href="promotion.html" targer="_self">PROMOTION</a>
         <a class="menu-item" href="aboutus.html" targer="_self">ABOUT US</a>
-
     </nav>
     <div class="promotion-one">
         <div class="promotion-detail">
@@ -42,7 +41,7 @@
     </div>
     <div>
         <div>
-            <button class="promotion-button"> Order now </button>
+            <input class="promotion-button" type=button onClick="location.href='menu.html'" value='Order now'>
         </div>
 
         <div class="promotion-one">
@@ -65,7 +64,7 @@
             </div>
         </div>
         <div>
-            <button class="promotion-button"> Order now </button>
+            <input class="promotion-button" type=button onClick="location.href='menu.html'" value='Order now'>
         </div>
         <marquee class="slogan">WELCOME TO BURGER KING! BE YOUR OWN WAY! </marquee>
 
